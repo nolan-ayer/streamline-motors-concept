@@ -1,0 +1,41 @@
+.mapEmbed {
+  height: fit-content;
+  padding: 0 0 0.5rem 0;
+  /* position: absolute; */
+  width: 100%;
+}
+
+.footer {
+  background-image: url("https://images.pexels.com/photos/4928606/pexels-photo-4928606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-color: rgba(0, 0, 0, 0.9);
+  background-position: -10% -62.5%;
+  background-blend-mode: multiply;
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-size: cover;
+  padding: 2rem 4rem;
+}
+
+.footer > address {
+  position: relative;
+}
+
+.footerCopyright {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerItemHeader {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0 0 1rem 0;
+}
+
+.footerSubContents {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 0.5rem 0;
+}

@@ -1,0 +1,67 @@
+.carouselImg {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.headerLayer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+
+.logoImage {
+  filter: brightness(50%);
+  height: 5rem;
+  object-fit: cover;
+  position: relative;
+  width: 20rem;
+  z-index: 100;
+}
+
+.logoName {
+  font-size: 1rem;
+  font-weight: 500;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  translate: -50% -50%;
+  z-index: 1000;
+}
+
+.navItem {
+  padding: 2rem 0.5rem;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  padding: 0 1.5rem;
+}
+
+.promoItem:hover {
+  opacity: 0.9;
+}
+
+.swiper {
+  /* background-color: black; */
+}
+
+.titleBanner {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+@media (orientation: portrait) {
+  .carouselImg {
+    height: 16vw;
+  }
+}
+
+@media (orientation: landscape) {
+  .carouselImg {
+    height: 32vh;
+  }
+}
