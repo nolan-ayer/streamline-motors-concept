@@ -55,6 +55,18 @@
   text-align: center;
 }
 
+@media (orientation: landscape) and (width < 1080px) {
+  .headerLayer {
+    padding: 0 4rem;
+  }
+}
+
+@media (orientation: landscape) and (width > 1080px) {
+  .headerLayer {
+    padding: 0 6rem;
+  }
+}
+
 @media (orientation: portrait) {
   .carouselImg {
     height: 16vh;

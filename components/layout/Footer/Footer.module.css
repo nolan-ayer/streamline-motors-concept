@@ -13,7 +13,6 @@
   column-gap: 2rem;
   display: grid;
   background-size: cover;
-  padding: 4rem;
 }
 
 .footer > address {
@@ -43,6 +42,7 @@
   .footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 2;
+    padding: 4rem;
     row-gap: 2rem;
   }
 }
@@ -50,6 +50,7 @@
 @media (orientation: landscape) and (width > 1080px) {
   .footer {
     grid-template-columns: repeat(4, 1fr);
+    padding: 6rem;
   }
 }
 

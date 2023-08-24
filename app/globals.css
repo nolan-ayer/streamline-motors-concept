@@ -147,6 +147,20 @@ main {
   }
 }
 
+@media (orientation: landscape) and (width < 1080px) {
+  main {
+    padding: 4rem;
+  }
+}
+
+@media (orientation: landscape) and (width > 1080px) {
+  main {
+    padding: 6rem;
+  }
+}
+
+/* font size */
+
 @media (orientation: landscape) and (width > 1280px) {
   * {
     font-size: 0.65vw;
