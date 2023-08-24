@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a concept design for the StreamlineMotors LLC website (original can be found at https://www.streamlinemotorswa.com).
 
-## Getting Started
+~
 
-First, run the development server:
+Consumer purchase habits may derive some pattern based on the perceived credibility of the bodies from which those purchases are made. If an individual, company, or other entity has what may be perceived as poor image by their target consumer, purchases would have a higher likelyhood of failure.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+According to the Stanford Web Credibility Project conducted by the Stanford University Persuasive Technology Lab, the average consumer paid far more attention to the superficial aspects of a site, such as visual cues, than to its content. For example, nearly half of all consumers (46.1%) in the study assessed the credibility of sites based in part on the appeal of the overall visual design of a site, including layout, typography, font size and color schemes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This data shows beyond a doubt that consumers are able to identify, and indeed do prefer designs that are more up-to-date, modern, and aesthetically pleasing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+With this in mind, the purpose of this repository is made clear - it is to show the potential in what Streamline Motors could have as their primary consumer facing image, ie website.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The implementation of more modern and refined web design would benefit the company by bettering consumer impressions thus generating more sales.
 
-## Learn More
+~
 
-To learn more about Next.js, take a look at the following resources:
+This project is not made to distract potential customers from the real site. This project is only intended to be used for the purpose of the showcase of stylistic differences between the current implementation of streamlinemotorswa and what is possible with more modern style.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+~
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is made in NextJS with Typescript and 3rd party imports are being used. For more technical information, check package.json.
