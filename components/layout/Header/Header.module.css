@@ -27,6 +27,7 @@
   position: absolute;
   top: 50%;
   translate: -50% -50%;
+  width: 100%;
   z-index: 1000;
 }
 
@@ -56,12 +57,12 @@
 
 @media (orientation: portrait) {
   .carouselImg {
-    height: 32vw;
+    height: 16vh;
   }
 }
 
 @media (orientation: landscape) {
   .carouselImg {
-    height: 32vh;
+    height: 16vw;
   }
 }
