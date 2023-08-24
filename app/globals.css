@@ -43,7 +43,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem;
 }
 
 .centered {
@@ -71,6 +70,9 @@ main {
 }
 
 @media (orientation: landscape) {
+  main {
+    padding: 4rem;
+  }
   .nextLink {
     border-bottom: 1px solid transparent;
     color: rgb(225, 225, 225);
@@ -85,5 +87,60 @@ main {
 @media (orientation: portrait) {
   .nextLink {
     color: white;
+  }
+}
+
+/* display regular */
+@media (orientation: landscape) and (width > 720px) {
+  * {
+    font-size: calc(1.15vw - 1vh);
+    /* border: 1px solid red; */
+  }
+  h1 {
+    font-size: calc(1.65vw - 1vh);
+  }
+  h2 {
+    font-size: calc(1.55vw - 1vh);
+  }
+  h3 {
+    font-size: calc(1.45vw - 1vh);
+  }
+  h4 {
+    font-size: calc(1.35vw - 1vh);
+  }
+  h5 {
+    font-size: calc(1.25vw - 1vh);
+  }
+}
+
+/* display small */
+@media (orientation: landscape) and (width < 720px) {
+  * {
+    font-size: calc(2.15vw - 1vh);
+    /* border: 1px solid red; */
+  }
+  h1 {
+    font-size: calc(2.65vw - 1vh);
+  }
+  h2 {
+    font-size: calc(2.55vw - 1vh);
+  }
+  h3 {
+    font-size: calc(2.45vw - 1vh);
+  }
+  h4 {
+    font-size: calc(2.35vw - 1vh);
+  }
+  h5 {
+    font-size: calc(2.25vw - 1vh);
+  }
+}
+
+@media (orientation: portrait) {
+  * {
+    font-size: 1rem - 2vw;
+  }
+  main {
+    padding: 2rem;
   }
 }

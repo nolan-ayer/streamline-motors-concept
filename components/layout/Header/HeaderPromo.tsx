@@ -16,8 +16,25 @@ import "swiper/css/scrollbar";
 
 import styles from "./Header.module.css";
 import PromoItem from "./PromoItem";
+import { useEffect, useState } from "react";
 
 export default function HeaderPromo() {
+  const [count, setCount] = useState(3);
+
+  //effect doesn't update state on first render, only on resize
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+
+      if (width > height) {
+        setCount(5);
+      } else {
+        setCount(3);
+      }
+    });
+  }, []);
+
   const images = [
     {
       id: 0,
@@ -100,9 +117,6 @@ export default function HeaderPromo() {
 
   const renderImages = images.map(({ id, imgLo, imgHi }) => {
     return (
-      // <SwiperSlide key={key}>
-      //   <img className={styles.carouselImg} src={loadedImage} />
-      // </SwiperSlide>
       <SwiperSlide key={id}>
         <PromoItem imgLo={imgLo} imgHi={imgHi} />
       </SwiperSlide>
@@ -111,14 +125,13 @@ export default function HeaderPromo() {
 
   return (
     <div className={styles.swiper}>
-      {/* fix for portrait */}
       <Swiper
         loop={true}
         autoplay={{ delay: 900 }}
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={0}
-        slidesPerView={5}
-        navigation
+        slidesPerView={count}
+        // navigation
         pagination={{ clickable: true }}
         // scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}

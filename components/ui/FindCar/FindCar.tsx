@@ -10,43 +10,62 @@ export default function FindCar() {
   return (
     <div className={styles.findCar}>
       <h4 className={"centered padded"}>Find your perfect car</h4>
-      <div className={styles.findCarForm}>
-        <div className={styles.findCarLabel}>Year Min</div>
-        <div className={styles.findCarLabel}>Year Max</div>
-        <div className={styles.findCarLabel}>Make</div>
-        <div className={styles.findCarLabel}>Model</div>
-        <div className={styles.findCarLabel}>Body</div>
-        <div className={styles.findCarLabel}>Price Max</div>
-        <div className={styles.findCarLabel} />
-      </div>
       <form className={styles.findCarForm} onSubmit={submitHandler}>
-        {/* use carAPI to GET manufacturer details and map them to these lists */}
         <div className={styles.findCarColumn}>
+          <div className={styles.findCarLabel}>Year Min</div>
           <input type="number" placeholder="None" />
         </div>
         <div className={styles.findCarColumn}>
+          <div className={styles.findCarLabel}>Year Max</div>
           <input type="number" placeholder="None" />
         </div>
         <div className={styles.findCarColumn}>
+          <div className={styles.findCarLabel}>Make</div>
           <select>
             <option value="Placeholder">Any</option>
           </select>
         </div>
         <div className={styles.findCarColumn}>
+          <div className={styles.findCarLabel}>Model</div>
           <select>
             <option value="Placeholder">Any</option>
           </select>
         </div>
         <div className={styles.findCarColumn}>
+          <div className={styles.findCarLabel}>Body</div>
           <select>
             <option value="Placeholder">Any</option>
           </select>
         </div>
         <div className={styles.findCarColumn}>
+          <div className={styles.findCarLabel}>Price Max</div>
           <input type="number" placeholder="None" />
         </div>
-        <button type="submit">Submit</button>
+        <button className={styles.submitButton} type="submit">
+          Submit
+        </button>
       </form>
+      {/* <form className={styles.findCarForm} onSubmit={submitHandler}>
+        <div className={styles.findCarLabel}>Year Min</div>
+        <input type="number" placeholder="None" />
+        <div className={styles.findCarLabel}>Year Max</div>
+        <input type="number" placeholder="None" />
+        <div className={styles.findCarLabel}>Make</div>
+        <select>
+          <option value="Placeholder">Any</option>
+        </select>
+        <div className={styles.findCarLabel}>Model</div>
+        <select>
+          <option value="Placeholder">Any</option>
+        </select>
+        <div className={styles.findCarLabel}>Body</div>
+        <select>
+          <option value="Placeholder">Any</option>
+        </select>
+        <div className={styles.findCarLabel}>Price Max</div>
+        <input type="number" placeholder="None" />
+        <button type="submit">Submit</button>
+      </form> */}
     </div>
   );
 }

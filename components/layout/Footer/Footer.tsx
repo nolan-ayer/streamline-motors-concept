@@ -4,7 +4,9 @@ import styles from "./Footer.module.css";
 export default function Footer() {
   return (
     <div className={styles.footer}>
-      <div className={styles.footerCopyright}>
+      <div
+        className={`${styles.footerCopywright} ${styles.copywrightPlacement}`}
+      >
         <p className={styles.footerSubContents}>
           Our friendly and knowledgeable sales staff is here to help you find
           the car you deserve and fits your budget. Thank you for the chance to
@@ -19,7 +21,7 @@ export default function Footer() {
           </Link>
         </span>
       </div>
-      <address>
+      <address className={styles.contactInfo}>
         <h4 className={styles.footerItemHeader}>Streamline Motors LLC</h4>
         <a className={styles.footerSubContents}>
           16825 48th Ave W Ste 108 Lynnwood, WA 98037
@@ -38,7 +40,7 @@ export default function Footer() {
           streamlinemotors76@gmail.com
         </a>
       </address>
-      <div>
+      <div className={styles.operationalHours}>
         <h4 className={styles.footerItemHeader}>Hours</h4>
         <ul>
           <li className={styles.footerSubContents}>
@@ -71,7 +73,7 @@ export default function Footer() {
           </li>
         </ul>
       </div>
-      <div>
+      <div className={styles.quickLinks}>
         <h4 className={styles.footerItemHeader}>Quick Links</h4>
       </div>
     </div>
