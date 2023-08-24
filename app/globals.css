@@ -150,7 +150,6 @@ main {
 @media (orientation: landscape) and (width > 1280px) {
   * {
     font-size: 0.65vw;
-    color: blue;
   }
   h1 {
     font-size: 1vw;
@@ -172,7 +171,6 @@ main {
 @media (orientation: landscape) and (width < 1280px) and (width > 800px) {
   * {
     font-size: 0.65vw;
-    color: red;
   }
   h1 {
     font-size: 1vw;
@@ -194,7 +192,6 @@ main {
 @media (orientation: landscape) and (width < 800px) {
   * {
     font-size: 2vw;
-    color: gold;
   }
   h1 {
     font-size: 2.5vw;
