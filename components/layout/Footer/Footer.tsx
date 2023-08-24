@@ -75,6 +75,12 @@ export default function Footer() {
       </div>
       <div className={styles.quickLinks}>
         <h4 className={styles.footerItemHeader}>Quick Links</h4>
+        <ul>
+          <li className={styles.footerSubContents}>
+            <span>Monday</span>
+            <span>11:00AM - 7:00PM</span>
+          </li>
+        </ul>
       </div>
     </div>
   );
