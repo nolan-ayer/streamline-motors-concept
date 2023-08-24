@@ -212,7 +212,22 @@ main {
 
 @media (orientation: portrait) {
   * {
-    font-size: 1rem - 2vw;
+    font-size: 2vh;
+  }
+  h1 {
+    font-size: 2.5vh;
+  }
+  h2 {
+    font-size: 2.4vh;
+  }
+  h3 {
+    font-size: 2.3vh;
+  }
+  h4 {
+    font-size: 2.2vh;
+  }
+  h5 {
+    font-size: 2.1vh;
   }
   main {
     padding: 2rem;
