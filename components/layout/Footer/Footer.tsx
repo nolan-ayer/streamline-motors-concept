@@ -1,5 +1,11 @@
+"use client";
+
 import Link from "next/link";
 import styles from "./Footer.module.css";
+
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 export default function Footer() {
   return (
@@ -77,8 +83,23 @@ export default function Footer() {
         <h4 className={styles.footerItemHeader}>Quick Links</h4>
         <ul>
           <li className={styles.footerSubContents}>
-            <span>Monday</span>
-            <span>11:00AM - 7:00PM</span>
+            <a href="https://www.facebook.com">
+              <FacebookIcon
+                className={`${styles.icon} ${styles.facebookIcon}`}
+              />
+            </a>
+          </li>
+          <li className={styles.footerSubContents}>
+            <a href="https://www.instagram.com">
+              <InstagramIcon
+                className={`${styles.icon} ${styles.instagramIcon}`}
+              />
+            </a>
+          </li>
+          <li className={styles.footerSubContents}>
+            <a href="https://www.twitter.com">
+              <TwitterIcon className={`${styles.icon} ${styles.twitterIcon}`} />
+            </a>
           </li>
         </ul>
       </div>
