@@ -34,10 +34,7 @@ export default function Footer() {
         <a className={styles.footerSubContents}>
           16825 48th Ave W Ste 108 Lynnwood, WA 98037
         </a>
-        <iframe
-          className={styles.mapEmbed}
-          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=%20%20%20%20%20%20%20%20%20%2016825%2048th%20Ave%20W%20Ste%20108%20Lynnwood,%20WA%2098037+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-        ></iframe>
+
         <a className={styles.footerSubContents} href="tel:+12063544790">
           <span>
             <PhoneIcon />
