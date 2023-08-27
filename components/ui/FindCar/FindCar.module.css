@@ -14,10 +14,15 @@
 .findCarColumn > input,
 .findCarColumn > select {
   border: 1px solid black;
-  color: black;
   height: 2.5rem;
   padding: 0.5rem;
   width: 100%;
+}
+
+.findCarColumn > input,
+.findCarColumn > select,
+.findCarColumn > input::placeholder {
+  color: darkgray;
 }
 
 .findCarForm {
