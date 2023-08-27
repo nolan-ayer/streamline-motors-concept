@@ -41,31 +41,15 @@ export default function FindCar() {
           <div className={styles.findCarLabel}>Price Max</div>
           <input type="number" placeholder="None" />
         </div>
-        <button className={styles.submitButton} type="submit">
-          Submit
-        </button>
+        <div
+          className={`${styles.findCarColumn} ${styles.submitButtonPlacement}`}
+        >
+          <div />
+          <button className={styles.submitButton} type="submit">
+            Submit
+          </button>
+        </div>
       </form>
-      {/* <form className={styles.findCarForm} onSubmit={submitHandler}>
-        <div className={styles.findCarLabel}>Year Min</div>
-        <input type="number" placeholder="None" />
-        <div className={styles.findCarLabel}>Year Max</div>
-        <input type="number" placeholder="None" />
-        <div className={styles.findCarLabel}>Make</div>
-        <select>
-          <option value="Placeholder">Any</option>
-        </select>
-        <div className={styles.findCarLabel}>Model</div>
-        <select>
-          <option value="Placeholder">Any</option>
-        </select>
-        <div className={styles.findCarLabel}>Body</div>
-        <select>
-          <option value="Placeholder">Any</option>
-        </select>
-        <div className={styles.findCarLabel}>Price Max</div>
-        <input type="number" placeholder="None" />
-        <button type="submit">Submit</button>
-      </form> */}
     </div>
   );
 }

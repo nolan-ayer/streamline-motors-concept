@@ -1,7 +1,8 @@
 * {
   border: none;
   box-sizing: border-box;
-  font-weight: normal;
+  font-family: Mukta, sans-serif;
+  font-weight: 400;
   margin: 0;
   outline: none;
   padding: 0;
@@ -69,6 +70,18 @@ main {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* font family */
+
+@font-face {
+  font-family: "Mukta";
+  src: url("../asset/Mukta/Mukta-Light.ttf");
+  src: url("../asset/Mukta/Mukta-Medium.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* screen orientation styles */
+
 @media (orientation: landscape) {
   main {
     padding: 4rem;
@@ -83,63 +96,6 @@ main {
     transition: 250ms;
   }
 }
-
-/* @media (orientation: portrait) {
-  .nextLink {
-    color: white;
-  }
-}
-
-@media (orientation: landscape) and (width > 720px) {
-  * {
-    font-size: calc(1.15vw - 1vh);
-  }
-  h1 {
-    font-size: calc(1.65vw - 1vh);
-  }
-  h2 {
-    font-size: calc(1.55vw - 1vh);
-  }
-  h3 {
-    font-size: calc(1.45vw - 1vh);
-  }
-  h4 {
-    font-size: calc(1.35vw - 1vh);
-  }
-  h5 {
-    font-size: calc(1.25vw - 1vh);
-  }
-}
-
-@media (orientation: landscape) and (width < 720px) {
-  * {
-    font-size: calc(2.15vw - 1vh);
-  }
-  h1 {
-    font-size: calc(2.65vw - 1vh);
-  }
-  h2 {
-    font-size: calc(2.55vw - 1vh);
-  }
-  h3 {
-    font-size: calc(2.45vw - 1vh);
-  }
-  h4 {
-    font-size: calc(2.35vw - 1vh);
-  }
-  h5 {
-    font-size: calc(2.25vw - 1vh);
-  }
-}
-
-@media (orientation: portrait) {
-  * {
-    font-size: 1rem - 2vw;
-  }
-  main {
-    padding: 2rem;
-  }
-} */
 
 @media (orientation: portrait) {
   .nextLink {

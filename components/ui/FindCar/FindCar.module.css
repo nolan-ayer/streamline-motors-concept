@@ -14,7 +14,6 @@
 .findCarColumn > input,
 .findCarColumn > select {
   border: 1px solid darkgray;
-  height: 2rem;
   width: 100%;
 }
 
@@ -36,9 +35,19 @@
   .findCar {
     flex-direction: column;
   }
+  .findCarColumn > input,
+  .findCarColumn > select {
+    height: 2.5rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (orientation: landscape) and (width < 720px) {
   .submitButton {
+    height: 100%;
+  }
+  .submitButtonPlacement {
     grid-column-start: 2;
-    grid-column-end: 3;
   }
 }
 
@@ -47,10 +56,18 @@
     margin: 0 4rem;
     padding: 4rem;
   }
+  .findCarColumn > input,
+  .findCarColumn > select {
+    height: 2.5rem;
+  }
   .findCarForm {
     column-gap: 2rem;
     grid-auto-rows: 1fr;
     row-gap: 2rem;
+  }
+  .submitButton {
+    grid-column-start: 7;
+    grid-column-end: 8;
   }
 }
 
@@ -59,10 +76,14 @@
     margin: 0 6rem;
     padding: 6rem;
   }
+  .findCarColumn {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
   .findCarForm {
-    column-gap: 2rem;
-    grid-auto-rows: 1fr;
-    row-gap: 2rem;
+    column-gap: 1rem;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 1rem;
   }
 }
 
