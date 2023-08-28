@@ -82,19 +82,22 @@
 
 /* screen orientation styles */
 
-@media (orientation: landscape) and (width < 1080px) {
+@media (orientation: landscape) and (width < 1920px) {
   .footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 2;
     padding: 4rem;
-    row-gap: 2rem;
+    column-gap: 5vw;
+    row-gap: 5vw;
   }
 }
 
-@media (orientation: landscape) and (width > 1080px) {
+@media (orientation: landscape) and (width >= 1920px) {
   .footer {
     grid-template-columns: repeat(4, 1fr);
     padding: 6rem;
+    column-gap: 10vw;
+    row-gap: 10vw;
   }
 }
 

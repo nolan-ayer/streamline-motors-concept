@@ -55,13 +55,13 @@
   text-align: center;
 }
 
-@media (orientation: landscape) and (width < 1080px) {
+@media (orientation: landscape) and (width < 1920px) {
   .headerLayer {
     padding: 0 4rem;
   }
 }
 
-@media (orientation: landscape) and (width > 1080px) {
+@media (orientation: landscape) and (width >= 1920px) {
   .headerLayer {
     padding: 0 6rem;
   }

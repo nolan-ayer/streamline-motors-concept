@@ -108,13 +108,13 @@ svg {
   }
 }
 
-@media (orientation: landscape) and (width < 1080px) {
+@media (orientation: landscape) and (width < 1920px) {
   main {
     padding: 4rem;
   }
 }
 
-@media (orientation: landscape) and (width > 1080px) {
+@media (orientation: landscape) and (width >= 1920px) {
   main {
     padding: 6rem;
   }
