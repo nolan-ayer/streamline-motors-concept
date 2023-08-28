@@ -34,6 +34,7 @@ export default function Footer() {
         <a
           className={styles.footerSubContents}
           href="https://www.google.com/maps/place/Streamline+Motors+LLC,+16825+48th+Ave+W,+Lynnwood,+WA+98037/@47.8457924,-122.2974798,17z/data=!4m6!3m5!1s0x549004fd9f0eef11:0xdadc7b0318e42016!8m2!3d47.8457924!4d-122.2974798!16s%2Fg%2F11c54n8dhm"
+          target="_blank"
         >
           16825 48th Ave W Ste 108 Lynnwood, WA 98037
         </a>
