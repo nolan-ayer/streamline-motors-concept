@@ -1,17 +1,21 @@
-.mapEmbed {
+.map {
   margin: 0;
   padding: 0;
   width: 100vw;
 }
 
+.mapEmbed {
+  line-height: 0;
+}
+
 @media (orientation: landscape) {
-  .mapEmbed {
+  .map {
     height: 15vw;
   }
 }
 
 @media (orientation: portrait) {
-  .mapEmbed {
+  .map {
     height: 50vw;
   }
 }
