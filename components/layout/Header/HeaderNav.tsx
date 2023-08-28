@@ -27,9 +27,9 @@ export default function HeaderNav() {
       style={{ backgroundColor: "rgb(0,0,0)" }}
     >
       <div className={styles.titleBanner}>
-        <h3 className={styles.logoName}>Streamline Motors</h3>
+        <h3 className={styles.logoName}>STREAMLINE MOTORS</h3>
         <img
-          alt="Sleek and stylish sports car in motion"
+          alt="Silhouette of a stylish yet understated sports car"
           className={styles.logoImage}
           src="https://t3.ftcdn.net/jpg/03/33/85/60/360_F_333856092_w73C86HQch50zYFFafV6nEgP5qNP9jyv.jpg"
         />
