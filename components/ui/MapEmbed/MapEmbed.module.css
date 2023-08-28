@@ -1,6 +1,17 @@
 .mapEmbed {
-  height: fit-content;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
+}
+
+@media (orientation: landscape) {
+  .mapEmbed {
+    height: 15vw;
+  }
+}
+
+@media (orientation: portrait) {
+  .mapEmbed {
+    height: 50vw;
+  }
 }
