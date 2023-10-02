@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import styles from "./FindCar.module.css";
 
 export default function FindCar() {
@@ -9,6 +10,7 @@ export default function FindCar() {
   };
   return (
     <div className={styles.findCar}>
+      <Link href="/search">click</Link>
       <h4 className={"centered padded"}>Find your perfect car</h4>
       <form className={styles.findCarForm} onSubmit={submitHandler}>
         <div className={styles.findCarColumn}>
