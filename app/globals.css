@@ -46,6 +46,10 @@ main {
   justify-content: center;
 }
 
+select {
+  text-align: left;
+}
+
 svg {
   padding: 0;
   margin: 0;

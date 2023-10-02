@@ -15,6 +15,7 @@ export default function Footer() {
       <div
         className={`${styles.footerCopywright} ${styles.copywrightPlacement}`}
       >
+        <h4 className={styles.footerItemHeader}>Welcome</h4>
         <p className={styles.footerSubContents}>
           Our friendly and knowledgeable sales staff is here to help you find
           the car you deserve and fits your budget. Thank you for the chance to
