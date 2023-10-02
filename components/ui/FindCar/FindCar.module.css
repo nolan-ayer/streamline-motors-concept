@@ -68,9 +68,11 @@
     grid-auto-rows: 1fr;
     row-gap: 2rem;
   }
+  .submitButtonPlacement {
+    grid-column-start: 2;
+  }
   .submitButton {
-    grid-column-start: 7;
-    grid-column-end: 8;
+    height: 100%;
   }
 }
 
