@@ -13,8 +13,8 @@ export default function HeaderNav() {
 
   const renderLinks = links.map((link) => {
     return (
-      <li className={styles.navItem}>
-        <Link className={"nextLink"} href={link.to} key={link.key}>
+      <li className={styles.navItem} key={link.key}>
+        <Link className={"nextLink"} href={link.to}>
           {link.text}
         </Link>
       </li>
