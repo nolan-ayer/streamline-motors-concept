@@ -1,0 +1,460 @@
+[
+  {
+    "manufacturer": "Audi",
+    "models": [
+      { "name": "A3", "body": "sedan", "category": "standard" },
+      { "name": "A4", "body": "sedan", "category": "standard" },
+      { "name": "A5", "body": "sedan", "category": "standard" },
+      { "name": "A6", "body": "sedan", "category": "standard" },
+      { "name": "A7", "body": "sedan", "category": "standard" },
+      { "name": "A8", "body": "sedan", "category": "standard" },
+      { "name": "e-tron", "body": "suv", "category": "electric" },
+      { "name": "e-tron Sportback", "body": "suv", "category": "electric" },
+      { "name": "Q3", "body": "suv", "category": "standard" },
+      { "name": "Q5", "body": "suv", "category": "standard" },
+      { "name": "Q7", "body": "suv", "category": "standard" },
+      { "name": "Q8", "body": "suv", "category": "standard" },
+      { "name": "RS3", "body": "sedan", "category": "sport" },
+      { "name": "RS4", "body": "sedan", "category": "sport" },
+      { "name": "RS5", "body": "sedan", "category": "sport" },
+      { "name": "RS6", "body": "sedan", "category": "sport" },
+      { "name": "RS7", "body": "sedan", "category": "sport" },
+      { "name": "SQ5", "body": "suv", "category": "sport" },
+      { "name": "SQ7", "body": "suv", "category": "sport" },
+      { "name": "S3", "body": "sedan", "category": "sport" },
+      { "name": "S4", "body": "sedan", "category": "sport" },
+      { "name": "S5", "body": "sedan", "category": "sport" },
+      { "name": "S6", "body": "sedan", "category": "sport" },
+      { "name": "S7", "body": "sedan", "category": "sport" },
+      { "name": "S8", "body": "sedan", "category": "sport" },
+      { "name": "TT", "body": "coupe", "category": "sport" },
+      { "name": "TTS", "body": "coupe", "category": "sport" },
+      { "name": "R8", "body": "coupe", "category": "super" }
+    ]
+  },
+  {
+    "manufacturer": "BMW",
+    "models": [
+      { "name": "2 Series", "body": "coupe sedan", "category": "standard" },
+      { "name": "3 Series", "body": "coupe sedan", "category": "standard" },
+      { "name": "4 Series", "body": "coupe sedan", "category": "standard" },
+      { "name": "5 Series", "body": "sedan", "category": "standard" },
+      { "name": "6 Series", "body": "sedan", "category": "standard" },
+      { "name": "7 Series", "body": "sedan", "category": "standard" },
+      { "name": "8 Series", "body": "coupe sedan", "category": "standard" },
+      { "name": "i3", "body": "coupe", "category": "electric" },
+      { "name": "i4", "body": "sedan", "category": "electric" },
+      { "name": "i8", "body": "coupe", "category": "electric" },
+      { "name": "M2", "body": "coupe", "category": "sport" },
+      { "name": "M3", "body": "sedan", "category": "sport" },
+      { "name": "M4", "body": "coupe", "category": "sport" },
+      { "name": "M5", "body": "sedan", "category": "sport" },
+      { "name": "M6", "body": "coupe", "category": "sport" },
+      { "name": "M8", "body": "coupe", "category": "sport" },
+      { "name": "X1", "body": "suv", "category": "standard" },
+      { "name": "X2", "body": "suv", "category": "standard" },
+      { "name": "X3", "body": "suv", "category": "standard" },
+      { "name": "X4", "body": "suv", "category": "standard" },
+      { "name": "X5", "body": "suv", "category": "standard" },
+      { "name": "X6", "body": "suv", "category": "standard" },
+      { "name": "X7", "body": "suv", "category": "standard" },
+      { "name": "X3 M", "body": "suv", "category": "sport" },
+      { "name": "X4 M", "body": "suv", "category": "sport" },
+      { "name": "X5 M", "body": "suv", "category": "sport" },
+      { "name": "X6 M", "body": "suv", "category": "sport" },
+      { "name": "Z4", "body": "coupe", "category": "sport" }
+    ]
+  },
+  {
+    "manufacturer": "Bugatti",
+    "models": [
+      { "name": "Veyron", "body": "coupe", "category": "super" },
+      { "name": "Chiron", "body": "coupe", "category": "super" },
+      { "name": "Divo", "body": "coupe", "category": "super" },
+      { "name": "La Voiture Noire", "body": "coupe", "category": "super" }
+    ]
+  },
+  {
+    "manufacturer": "Chevrolet",
+    "models": [
+      { "name": "Spark", "body": "hatchback", "category": "standard" },
+      { "name": "Sonic", "body": "", "category": "" },
+      { "name": "Malibu", "body": "", "category": "" },
+      { "name": "Camaro", "body": "", "category": "" },
+      { "name": "Corvette", "body": "", "category": "" },
+      { "name": "Impala", "body": "", "category": "" },
+      { "name": "Equinox", "body": "", "category": "" },
+      { "name": "Traverse", "body": "", "category": "" },
+      { "name": "Blazer", "body": "", "category": "" },
+      { "name": "Tahoe", "body": "", "category": "" },
+      { "name": "Suburban", "body": "", "category": "" },
+      { "name": "Silverado 1500", "body": "", "category": "" },
+      { "name": "Silverado 2500HD", "body": "", "category": "" },
+      { "name": "Silverado 3500HD", "body": "", "category": "" },
+      { "name": "Colorado", "body": "", "category": "" },
+      { "name": "Express", "body": "", "category": "" },
+      { "name": "Bolt EV", "body": "", "category": "" },
+      { "name": "Trailblazer", "body": "", "category": "" },
+      { "name": "Trax", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Chrysler",
+    "models": [
+      { "name": "300", "body": "sedan", "category": "" },
+      { "name": "Pacifica", "body": "minivan", "category": "" },
+      { "name": "Voyager", "body": "minivan", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Dodge",
+    "models": [
+      { "name": "Charger", "body": "sedan", "category": "sport" },
+      { "name": "Challenger", "body": "coupe", "category": "sport" },
+      { "name": "Durango", "body": "suv", "category": "" },
+      { "name": "Journey", "body": "suv", "category": "" },
+      { "name": "Grand Caravan", "body": "minivan", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Ferrari",
+    "models": [
+      { "name": "488 GTB", "body": "", "category": "" },
+      { "name": "488 Spider", "body": "", "category": "" },
+      { "name": "812 Superfast", "body": "", "category": "" },
+      { "name": "GTC4Lusso", "body": "", "category": "" },
+      { "name": "Portofino", "body": "", "category": "" },
+      { "name": "Roma", "body": "", "category": "" },
+      { "name": "SF90 Stradale", "body": "", "category": "" },
+      { "name": "F8 Tributo", "body": "", "category": "" },
+      { "name": "Monza SP1", "body": "", "category": "" },
+      { "name": "Monza SP2", "body": "", "category": "" },
+      { "name": "LaFerrari", "body": "", "category": "" },
+      { "name": "Enzo Ferrari", "body": "", "category": "" },
+      { "name": "F12 Berlinetta", "body": "", "category": "" },
+      { "name": "FF", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Fiat",
+    "models": [
+      { "name": "500", "body": "", "category": "" },
+      { "name": "500X", "body": "", "category": "" },
+      { "name": "500L", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Ford",
+    "models": [
+      { "name": "F-150", "body": "", "category": "" },
+      { "name": "Escape", "body": "", "category": "" },
+      { "name": "Explorer", "body": "", "category": "" },
+      { "name": "Mustang", "body": "", "category": "" },
+      { "name": "Focus", "body": "", "category": "" },
+      { "name": "Fusion", "body": "", "category": "" },
+      { "name": "Edge", "body": "", "category": "" },
+      { "name": "Expedition", "body": "", "category": "" },
+      { "name": "Ranger", "body": "", "category": "" },
+      { "name": "Bronco", "body": "", "category": "" },
+      { "name": "EcoSport", "body": "", "category": "" },
+      { "name": "Transit", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Honda",
+    "models": [
+      { "name": "Civic", "body": "", "category": "" },
+      { "name": "Accord", "body": "", "category": "" },
+      { "name": "CR-V", "body": "", "category": "" },
+      { "name": "Fit", "body": "", "category": "" },
+      { "name": "HR-V", "body": "", "category": "" },
+      { "name": "Insight", "body": "", "category": "" },
+      { "name": "Odyssey", "body": "", "category": "" },
+      { "name": "Passport", "body": "", "category": "" },
+      { "name": "Pilot", "body": "", "category": "" },
+      { "name": "Ridgeline", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Hyundai",
+    "models": [
+      { "name": "Accent", "body": "", "category": "" },
+      { "name": "Elantra", "body": "", "category": "" },
+      { "name": "Sonata", "body": "", "category": "" },
+      { "name": "Azera", "body": "", "category": "" },
+      { "name": "Veloster", "body": "", "category": "" },
+      { "name": "Kona", "body": "", "category": "" },
+      { "name": "Tucson", "body": "", "category": "" },
+      { "name": "Santa Fe", "body": "", "category": "" },
+      { "name": "Palisade", "body": "", "category": "" },
+      { "name": "Venue", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Jaguar",
+    "models": [
+      { "name": "XE", "body": "", "category": "" },
+      { "name": "XF", "body": "", "category": "" },
+      { "name": "XJ", "body": "", "category": "" },
+      { "name": "F-body", "body": "", "category": "" },
+      { "name": "E-PACE", "body": "", "category": "" },
+      { "name": "F-PACE", "body": "", "category": "" },
+      { "name": "I-PACE", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Jeep",
+    "models": [
+      { "name": "Cherokee", "body": "", "category": "" },
+      { "name": "Compass", "body": "", "category": "" },
+      { "name": "Grand Cherokee", "body": "", "category": "" },
+      { "name": "Renegade", "body": "", "category": "" },
+      { "name": "Wrangler", "body": "", "category": "" },
+      { "name": "Gladiator", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Kia",
+    "models": [
+      { "name": "Forte", "body": "", "category": "" },
+      { "name": "Optima", "body": "", "category": "" },
+      { "name": "Cadenza", "body": "", "category": "" },
+      { "name": "K900", "body": "", "category": "" },
+      { "name": "Soul", "body": "", "category": "" },
+      { "name": "Niro", "body": "", "category": "" },
+      { "name": "Sportage", "body": "", "category": "" },
+      { "name": "Seltos", "body": "", "category": "" },
+      { "name": "Sorento", "body": "", "category": "" },
+      { "name": "Telluride", "body": "", "category": "" },
+      { "name": "Stinger", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Lamborghini",
+    "models": [
+      { "name": "Aventador", "body": "", "category": "" },
+      { "name": "Centenario", "body": "", "category": "" },
+      { "name": "Countach", "body": "", "category": "" },
+      { "name": "Diablo", "body": "", "category": "" },
+      { "name": "Gallardo", "body": "", "category": "" },
+      { "name": "Huracán", "body": "", "category": "" },
+      { "name": "Murciélago", "body": "", "category": "" },
+      { "name": "Reventón", "body": "", "category": "" },
+      { "name": "Sian", "body": "", "category": "" },
+      { "name": "Urus", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Land Rover",
+    "models": [
+      { "name": "Defender", "body": "", "category": "" },
+      { "name": "Discovery", "body": "", "category": "" },
+      { "name": "Discovery Sport", "body": "", "category": "" },
+      { "name": "Range Rover", "body": "", "category": "" },
+      { "name": "Range Rover Sport", "body": "", "category": "" },
+      { "name": "Range Rover Velar", "body": "", "category": "" },
+      { "name": "Range Rover Evoque", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Lexus",
+    "models": [
+      { "name": "CT", "body": "", "category": "" },
+      { "name": "ES", "body": "", "category": "" },
+      { "name": "GS", "body": "", "category": "" },
+      { "name": "GX", "body": "", "category": "" },
+      { "name": "IS", "body": "", "category": "" },
+      { "name": "LC", "body": "", "category": "" },
+      { "name": "LS", "body": "", "category": "" },
+      { "name": "LX", "body": "", "category": "" },
+      { "name": "NX", "body": "", "category": "" },
+      { "name": "RC", "body": "", "category": "" },
+      { "name": "RX", "body": "", "category": "" },
+      { "name": "UX", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Maserati",
+    "models": [
+      { "name": "Ghibli", "body": "", "category": "" },
+      { "name": "Quattroporte", "body": "", "category": "" },
+      { "name": "Levante", "body": "", "category": "" },
+      { "name": "GranTurismo", "body": "", "category": "" },
+      { "name": "GranCabrio", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Mazda",
+    "models": [
+      { "name": "CX-3", "body": "", "category": "" },
+      { "name": "CX-30", "body": "", "category": "" },
+      { "name": "CX-5", "body": "", "category": "" },
+      { "name": "CX-9", "body": "", "category": "" },
+      { "name": "MX-5 Miata", "body": "", "category": "" },
+      { "name": "Mazda 3", "body": "", "category": "" },
+      { "name": "Mazda 6", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "McLaren",
+    "models": [
+      { "name": "McLaren GT", "body": "", "category": "" },
+      { "name": "McLaren 570S", "body": "", "category": "" },
+      { "name": "McLaren 600LT", "body": "", "category": "" },
+      { "name": "McLaren 720S", "body": "", "category": "" },
+      { "name": "McLaren 765LT", "body": "", "category": "" },
+      { "name": "McLaren Senna", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Mercedes-Benz",
+    "models": [
+      { "name": "A-body", "body": "", "category": "" },
+      { "name": "C-body", "body": "", "category": "" },
+      { "name": "E-body", "body": "", "category": "" },
+      { "name": "S-body", "body": "", "category": "" },
+      { "name": "CLA", "body": "", "category": "" },
+      { "name": "CLS", "body": "", "category": "" },
+      { "name": "GLA", "body": "", "category": "" },
+      { "name": "GLB", "body": "", "category": "" },
+      { "name": "GLC", "body": "", "category": "" },
+      { "name": "GLE", "body": "", "category": "" },
+      { "name": "GLS", "body": "", "category": "" },
+      { "name": "G-body", "body": "", "category": "" },
+      { "name": "AMG GT", "body": "", "category": "" },
+      { "name": "SL", "body": "", "category": "" },
+      { "name": "SLC", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Mitsubishi",
+    "models": [
+      { "name": "Mirage", "body": "", "category": "" },
+      { "name": "Mirage G4", "body": "", "category": "" },
+      { "name": "Outlander Sport", "body": "", "category": "" },
+      { "name": "Eclipse Cross", "body": "", "category": "" },
+      { "name": "Outlander", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Nissan",
+    "models": [
+      { "name": "Altima", "body": "", "category": "" },
+      { "name": "Maxima", "body": "", "category": "" },
+      { "name": "Sentra", "body": "", "category": "" },
+      { "name": "Versa", "body": "", "category": "" },
+      { "name": "370Z", "body": "", "category": "" },
+      { "name": "GT-R", "body": "", "category": "" },
+      { "name": "Juke", "body": "", "category": "" },
+      { "name": "Kicks", "body": "", "category": "" },
+      { "name": "Rogue", "body": "", "category": "" },
+      { "name": "Murano", "body": "", "category": "" },
+      { "name": "Pathfinder", "body": "", "category": "" },
+      { "name": "Armada", "body": "", "category": "" },
+      { "name": "Frontier", "body": "", "category": "" },
+      { "name": "Titan", "body": "", "category": "" },
+      { "name": "NV200", "body": "", "category": "" },
+      { "name": "NV Cargo", "body": "", "category": "" },
+      { "name": "NV Passenger", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Polestar",
+    "models": [
+      { "name": "1", "body": "", "category": "" },
+      { "name": "2", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Porsche",
+    "models": [
+      { "name": "911", "body": "", "category": "" },
+      { "name": "718 Cayman", "body": "", "category": "" },
+      { "name": "718 Boxster", "body": "", "category": "" },
+      { "name": "Panamera", "body": "", "category": "" },
+      { "name": "Taycan", "body": "", "category": "" },
+      { "name": "Cayenne", "body": "", "category": "" },
+      { "name": "Macan", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Ram",
+    "models": [
+      { "name": "1500", "body": "", "category": "" },
+      { "name": "2500", "body": "", "category": "" },
+      { "name": "3500", "body": "", "category": "" },
+      { "name": "Chassis Cab", "body": "", "category": "" },
+      { "name": "ProMaster", "body": "", "category": "" },
+      { "name": "ProMaster City", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Subaru",
+    "models": [
+      { "name": "Ascent", "body": "", "category": "" },
+      { "name": "BRZ", "body": "", "category": "" },
+      { "name": "Crosstrek", "body": "", "category": "" },
+      { "name": "Forester", "body": "", "category": "" },
+      { "name": "Impreza", "body": "", "category": "" },
+      { "name": "Legacy", "body": "", "category": "" },
+      { "name": "Outback", "body": "", "category": "" },
+      { "name": "WRX", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Tesla",
+    "models": [
+      { "name": "Model S", "body": "", "category": "" },
+      { "name": "Model 3", "body": "", "category": "" },
+      { "name": "Model X", "body": "", "category": "" },
+      { "name": "Model Y", "body": "", "category": "" },
+      { "name": "Cybertruck", "body": "", "category": "" },
+      { "name": "Roadster", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Toyota",
+    "models": [
+      { "name": "4Runner", "body": "", "category": "" },
+      { "name": "86", "body": "", "category": "" },
+      { "name": "Avalon", "body": "", "category": "" },
+      { "name": "C-HR", "body": "", "category": "" },
+      { "name": "Camry", "body": "", "category": "" },
+      { "name": "Corolla", "body": "", "category": "" },
+      { "name": "Highlander", "body": "", "category": "" },
+      { "name": "Land Cruiser", "body": "", "category": "" },
+      { "name": "Mirai", "body": "", "category": "" },
+      { "name": "Prius", "body": "", "category": "" },
+      { "name": "Rav4", "body": "", "category": "" },
+      { "name": "Sienna", "body": "", "category": "" },
+      { "name": "Supra", "body": "", "category": "" },
+      { "name": "Tacoma", "body": "", "category": "" },
+      { "name": "Tundra", "body": "", "category": "" },
+      { "name": "Yaris", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Volkswagen",
+    "models": [
+      { "name": "Arteon", "body": "", "category": "" },
+      { "name": "Atlas", "body": "", "category": "" },
+      { "name": "Beetle", "body": "", "category": "" },
+      { "name": "Golf", "body": "", "category": "" },
+      { "name": "Jetta", "body": "", "category": "" },
+      { "name": "Passat", "body": "", "category": "" },
+      { "name": "Tiguan", "body": "", "category": "" }
+    ]
+  },
+  {
+    "manufacturer": "Volvo",
+    "models": [
+      { "name": "S60", "body": "", "category": "" },
+      { "name": "S90", "body": "", "category": "" },
+      { "name": "V60", "body": "", "category": "" },
+      { "name": "V90", "body": "", "category": "" },
+      { "name": "XC40", "body": "", "category": "" },
+      { "name": "XC60", "body": "", "category": "" },
+      { "name": "XC90", "body": "", "category": "" }
+    ]
+  }
+]
