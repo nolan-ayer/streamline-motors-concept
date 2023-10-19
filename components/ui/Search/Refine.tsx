@@ -1,7 +1,37 @@
+"use client";
+
 import styles from "../../ui/FindCar/FindCar.module.css";
 import Select from "../Input/Select";
+import { useEffect, useState } from "react";
+import database from "../../../pseudoDatabase/all-cars-database.json";
 
 export default function Refine() {
+  const [carMake, setCarMake] = useState<any | null>([]);
+  const [carModel, setCarModel] = useState<any | null>([]);
+
+  const initialize = () => {
+    const makeArray = database.map((data) => {
+      return data.manufacturer;
+    });
+    setCarMake(makeArray);
+    //something like this but filter based on carMake
+    // const modelArray = database.map((data) => {
+    //   return data.models;
+    // });
+    // setCarModel(modelArray);
+  };
+
+  useEffect(() => {
+    // const fetchCars = async () => {
+    //   const response = await fetch("some-path");
+    //   const data = await response.json();
+    //   console.log(data);
+    // };
+    // fetchCars();
+    // console.log(database);
+    initialize();
+  }, []);
+
   return (
     <div className={styles.findCar}>
       <form className={styles.findCarForm}>
@@ -18,39 +48,7 @@ export default function Refine() {
           <div className={styles.findCarLabel}>Make</div>
           <Select
             config={{
-              defaultValue: "Placeholder",
-              innerText: [
-                "Any",
-                "Audi",
-                "BMW",
-                "Bugatti",
-                "Chevrolet",
-                "Chrysler",
-                "Ferrari",
-                "Fiat",
-                "Ford",
-                "Honda",
-                "Hyundai",
-                "Jaguar",
-                "Jeep",
-                "Kia",
-                "Lamborghini",
-                "Land Rover",
-                "Lexus",
-                "Maserati",
-                "Mazda",
-                "McLaren",
-                "Mercedes-Benz",
-                "Mitsubishi",
-                "Nissan",
-                "Porsche",
-                "Ram",
-                "Subaru",
-                "Tesla",
-                "Toyota",
-                "Volkswagen",
-                "Volvo",
-              ],
+              innerText: carMake,
               inputValue: "make",
             }}
           />
@@ -65,7 +63,6 @@ export default function Refine() {
           <div className={styles.findCarLabel}>Body</div>
           <Select
             config={{
-              defaultValue: "Placeholder",
               innerText: ["Any", "Coupe", "Sedan", "SUV", "Truck", "Wagon"],
               inputValue: "body",
             }}
