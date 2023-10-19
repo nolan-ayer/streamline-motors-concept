@@ -50,14 +50,14 @@ export default function Refine() {
               "Volkswagen",
               "Volvo",
             ],
-            inputValue: "Placeholder",
+            inputValue: "make",
           }}
         />
       </div>
       <div className={styles.findCarColumn}>
         <div className={styles.findCarLabel}>Model</div>
         <select>
-          <option value="Placeholder">Any</option>
+          <option value="model">Any</option>
         </select>
       </div>
       <div className={styles.findCarColumn}>
@@ -66,7 +66,7 @@ export default function Refine() {
           config={{
             defaultValue: "Placeholder",
             innerText: ["Any", "Coupe", "Sedan", "SUV", "Truck", "Wagon"],
-            inputValue: "Placeholder",
+            inputValue: "body",
           }}
         />
       </div>
