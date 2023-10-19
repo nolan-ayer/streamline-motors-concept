@@ -19,3 +19,27 @@ This project is not made to distract potential customers from the real site. Thi
 ~
 
 This project is made in NextJS with Typescript and 3rd party imports are being used. For more technical information, check package.json.
+
+~
+
+DEVELOPER TODOS:
+
+progress development of json database
+
+include react-hook-form
+
+restore scrolling image banner
+
+create inventory list
+
+create individual inventory list item pages with dynamic url
+
+create modal that informs the user that this site is NOT the official streamlinemotors page
+
+add about, contact, and financing pages
+
+enable CRUD functionality with dealer login
+
+AWS iAM
+
+deployment
