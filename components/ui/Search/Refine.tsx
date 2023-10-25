@@ -9,6 +9,10 @@ export default function Refine() {
   const [carMake, setCarMake] = useState<any | null>([]);
   const [carModel, setCarModel] = useState<any | null>([]);
 
+  useEffect(() => {
+    initialize();
+  }, []);
+
   const initialize = () => {
     const makeArray = database.map((data) => {
       return data.manufacturer;
@@ -21,21 +25,10 @@ export default function Refine() {
     // setCarModel(modelArray);
   };
 
-  useEffect(() => {
-    // const fetchCars = async () => {
-    //   const response = await fetch("some-path");
-    //   const data = await response.json();
-    //   console.log(data);
-    // };
-    // fetchCars();
-    // console.log(database);
-    initialize();
-  }, []);
-
   return (
     <div className={styles.findCar}>
+      <h1>REFINE</h1>
       <form className={styles.findCarForm}>
-        <h1>REFINE</h1>
         <div className={styles.findCarColumn}>
           <div className={styles.findCarLabel}>Year Min</div>
           <input type="number" placeholder="None" />
@@ -44,7 +37,10 @@ export default function Refine() {
           <div className={styles.findCarLabel}>Year Max</div>
           <input type="number" placeholder="None" />
         </div>
-        <div className={styles.findCarColumn}>
+        <div
+          className={styles.findCarColumn}
+          title="Upon app completion, this will only display currently in-stock results through the use of a GET request to the backend rather than a dummy static JSON db"
+        >
           <div className={styles.findCarLabel}>Make</div>
           <Select
             config={{
@@ -53,7 +49,10 @@ export default function Refine() {
             }}
           />
         </div>
-        <div className={styles.findCarColumn}>
+        <div
+          className={styles.findCarColumn}
+          title="These results will need to be filtered based on user input in the MAKE field"
+        >
           <div className={styles.findCarLabel}>Model</div>
           <select>
             <option value="model">Any</option>
