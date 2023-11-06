@@ -14,7 +14,6 @@ export default function InventoryPreview(config: any) {
     price,
     transmission_type,
     transmission_speed,
-    vin,
     year,
   } = config.config;
 
@@ -24,10 +23,8 @@ export default function InventoryPreview(config: any) {
         <div className={styles.imageContainer}>
           <img src={imgSrc} />
           <div className={styles.carfax}>
-            <a
-              href={`https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=ACW_0&vin=${vin}`}
-              target="_blank"
-            >
+            {/* href will look like `https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=${partnerId}&vin=${vin}` */}
+            <a href="https://www.carfax.com/" target="_blank">
               <Image
                 alt="Show me the Carfax"
                 src={CarfaxBanner}
