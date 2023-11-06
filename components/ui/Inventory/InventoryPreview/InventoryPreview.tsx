@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CarfaxBanner from "../../../../asset/images/show-me-the-carfax-cropped.png";
 import styles from "./InventoryPreview.module.css";
+import Link from "next/link";
 
 export default function InventoryPreview(config: any) {
   const {
@@ -24,14 +25,14 @@ export default function InventoryPreview(config: any) {
           <img src={imgSrc} />
           <div className={styles.carfax}>
             {/* href will look like `https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=${partnerId}&vin=${vin}` */}
-            <a href="https://www.carfax.com/" target="_blank">
+            <Link href="https://www.carfax.com/" target="_blank">
               <Image
                 alt="Show me the Carfax"
                 src={CarfaxBanner}
                 layout="fit"
                 objectFit="contain"
               />
-            </a>
+            </Link>
           </div>
         </div>
         <div className={styles.textContainer}>

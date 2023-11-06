@@ -26,14 +26,14 @@ export default function HeaderNav() {
       className={styles.headerLayer}
       style={{ backgroundColor: "rgb(0,0,0)" }}
     >
-      <a className={styles.titleBanner} href="/">
+      <Link className={styles.titleBanner} href="/">
         <h3 className={styles.logoName}>STREAMLINE MOTORS</h3>
         <img
           alt="Silhouette of a stylish yet understated sports car"
           className={styles.logoImage}
           src="https://t3.ftcdn.net/jpg/03/33/85/60/360_F_333856092_w73C86HQch50zYFFafV6nEgP5qNP9jyv.jpg"
         />
-      </a>
+      </Link>
       <nav>
         <ul className={styles.navList}>{renderLinks}</ul>
       </nav>

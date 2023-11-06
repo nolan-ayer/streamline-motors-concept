@@ -32,21 +32,21 @@ export default function Footer() {
       </div>
       <address className={styles.contactInfo}>
         <h4 className={styles.footerItemHeader}>Streamline Motors LLC</h4>
-        <a
+        <Link
           className={styles.footerSubContents}
           href="https://www.google.com/maps/place/Streamline+Motors+LLC,+16825+48th+Ave+W,+Lynnwood,+WA+98037/@47.8457924,-122.2974798,17z/data=!4m6!3m5!1s0x549004fd9f0eef11:0xdadc7b0318e42016!8m2!3d47.8457924!4d-122.2974798!16s%2Fg%2F11c54n8dhm"
           target="_blank"
         >
           16825 48th Ave W Ste 108 Lynnwood, WA 98037
-        </a>
+        </Link>
 
-        <a className={styles.footerSubContents} href="tel:+12063544790">
+        <Link className={styles.footerSubContents} href="tel:+12063544790">
           <span>
             <PhoneIcon />
             {"(206)354-4790"}
           </span>
-        </a>
-        <a
+        </Link>
+        <Link
           className={styles.footerSubContents}
           href="mailto:streamlinemotors76@gmail.com"
         >
@@ -54,7 +54,7 @@ export default function Footer() {
             <EmailIcon />
             streamlinemotors76@gmail.com
           </span>
-        </a>
+        </Link>
       </address>
       <div className={styles.operationalHours}>
         <h4 className={styles.footerItemHeader}>Hours</h4>
@@ -93,23 +93,23 @@ export default function Footer() {
         <h4 className={styles.footerItemHeader}>Quick Links</h4>
         <ul>
           <li className={styles.footerSubContents}>
-            <a href="https://www.facebook.com" target="_blank">
+            <Link href="https://www.facebook.com" target="_blank">
               <FacebookIcon
                 className={`${styles.icon} ${styles.facebookIcon}`}
               />
-            </a>
+            </Link>
           </li>
           <li className={styles.footerSubContents}>
-            <a href="https://www.instagram.com" target="_blank">
+            <Link href="https://www.instagram.com" target="_blank">
               <InstagramIcon
                 className={`${styles.icon} ${styles.instagramIcon}`}
               />
-            </a>
+            </Link>
           </li>
           <li className={styles.footerSubContents}>
-            <a href="https://www.twitter.com" target="_blank">
+            <Link href="https://www.twitter.com" target="_blank">
               <TwitterIcon className={`${styles.icon} ${styles.twitterIcon}`} />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

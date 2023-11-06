@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 import styles from "./Header.module.css";
+import Link from "next/link";
 
 export default function PromoItem({ imgLo, imgHi }) {
   const [loadedImage, setLoadedImage] = useState(
@@ -24,8 +25,8 @@ export default function PromoItem({ imgLo, imgHi }) {
   }
 
   return (
-    <a className={styles.promoItem} href={loadedImage} target="_blank">
+    <Link className={styles.promoItem} href={loadedImage} target="_blank">
       <img className={styles.carouselImg} src={loadedImage} />
-    </a>
+    </Link>
   );
 }
