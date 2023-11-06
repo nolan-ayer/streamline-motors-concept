@@ -32,7 +32,7 @@ export default function InventoryPreview(config: any) {
         )}
       </div>
       <div>
-        <span>{mileage}</span>
+        <span>{mileage} mi.</span>
       </div>
       <div>
         <span>{price}</span>
