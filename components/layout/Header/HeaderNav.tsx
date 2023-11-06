@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function HeaderNav() {
   const links = [
     { key: 0, text: "Home", to: "/" },
-    { key: 1, text: "Inventory", to: "/" },
+    { key: 1, text: "Inventory", to: "/inventory" },
     { key: 2, text: "About Us", to: "/" },
     { key: 3, text: "Contact", to: "/" },
     { key: 4, text: "Financing", to: "/" },

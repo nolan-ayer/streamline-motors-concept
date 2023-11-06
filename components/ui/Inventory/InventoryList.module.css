@@ -1,0 +1,31 @@
+.inventoryList {
+  display: grid;
+}
+
+@media (orientation: landscape) {
+  .inventoryList {
+    gap: 2rem;
+  }
+}
+
+@media (orientation: portrait) {
+  .inventoryList {
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media (orientation: landscape) and (width < 1920px) {
+  .inventoryList {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media (orientation: landscape) and (width >= 1920px) {
+  .inventoryList {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
+}

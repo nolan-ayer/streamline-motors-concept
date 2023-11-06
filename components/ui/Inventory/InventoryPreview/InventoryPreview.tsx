@@ -1,3 +1,7 @@
+import Image from "next/image";
+import CarfaxBanner from "../../../../asset/images/show-me-the-carfax-cropped.png";
+import styles from "./InventoryPreview.module.css";
+
 export default function InventoryPreview(config: any) {
   const {
     carfax,
@@ -14,30 +18,45 @@ export default function InventoryPreview(config: any) {
   } = config.config;
 
   return (
-    <li>
-      <img src={imgSrc} />
-      <h3>
-        {year} {make} {model}
-      </h3>
+    <li className={styles.previewCard}>
       <div>
-        {/* this logic assumes that there is no distinction in the carfaxAPI response body between the different types of automatic transmissions */}
-        {transmission_type == "Manual" ? (
-          <span>
-            {transmission_type} {transmission_speed} {drivetrain}
-          </span>
-        ) : (
-          <span>
-            {transmission_type} {drivetrain}
-          </span>
-        )}
+        <div className={styles.imageContainer}>
+          <img src={imgSrc} />
+          <div className={styles.carfax}>
+            <a href="https://www.carfax.com/" target="_blank">
+              <Image
+                alt="Show me the Carfax"
+                src={CarfaxBanner}
+                layout="fit"
+                objectFit="contain"
+              />
+            </a>
+          </div>
+        </div>
+        <div className={styles.textContainer}>
+          <h3>
+            {year} {make} {model}
+          </h3>
+          <div>
+            {/* this logic assumes that there is no distinction in the carfaxAPI response body between the different types of automatic transmissions */}
+            {transmission_type == "Manual" ? (
+              <span>
+                {transmission_type} {transmission_speed} {drivetrain}
+              </span>
+            ) : (
+              <span>
+                {transmission_type} {drivetrain}
+              </span>
+            )}
+          </div>
+          <div>
+            <span>{mileage} mi.</span>
+          </div>
+          <div>
+            <span>{price}</span>
+          </div>
+        </div>
       </div>
-      <div>
-        <span>{mileage} mi.</span>
-      </div>
-      <div>
-        <span>{price}</span>
-      </div>
-      <a href="https://www.carfax.com/" target="_blank">{`{carfax}`}</a>
     </li>
   );
 }

@@ -1,0 +1,58 @@
+.carfax {
+  border-radius: 1rem;
+  font-size: 0;
+  right: 0;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  width: fit-content;
+}
+
+.carfax:hover {
+  box-shadow: 0 0 6px rgb(0, 0, 0);
+}
+
+.carfax > a > img {
+  height: auto;
+  width: auto;
+}
+
+.imageContainer {
+  position: relative;
+  line-height: 0;
+}
+
+.imageContainer > img {
+  width: 100%;
+}
+
+.previewCard {
+  border: 1px solid gray;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.previewCard:hover {
+  cursor: pointer;
+  outline: 1px solid rgb(2, 117, 216);
+}
+
+.textContainer {
+  padding: 1rem;
+}
+
+@media (orientation: landscape) {
+}
+
+@media (orientation: portrait) {
+}
+
+@media (orientation: landscape) and (width < 1920px) {
+}
+
+@media (orientation: landscape) and (width >= 1920px) {
+}

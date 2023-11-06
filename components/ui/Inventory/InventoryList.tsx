@@ -1,5 +1,7 @@
 import InventoryPreview from "./InventoryPreview/InventoryPreview";
 
+import styles from "./InventoryList.module.css";
+
 export default function InventoryList() {
   const pseudoDatabase = [
     {
@@ -37,6 +39,6 @@ export default function InventoryList() {
 
   return (
     //ul will need to be a grid with mapped inventory previews inside
-    <ul>{renderItems}</ul>
+    <ul className={styles.inventoryList}>{renderItems}</ul>
   );
 }
