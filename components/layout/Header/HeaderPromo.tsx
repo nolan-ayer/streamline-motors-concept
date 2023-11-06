@@ -135,7 +135,7 @@ export default function HeaderPromo() {
         pagination={{ clickable: true }}
         // scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
+        // onSlideChange={() => console.log("slide change")}
         speed={1800}
       >
         {renderImages}
