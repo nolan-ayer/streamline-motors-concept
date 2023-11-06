@@ -24,13 +24,13 @@ This project is made in NextJS with Typescript and 3rd party imports are being u
 
 DEVELOPER TODOS:
 
-progress development of json database
+~~progress development of json database~~ placeholder database will be replaced with dynamic data from carfaxAPI
 
 include react-hook-form
 
-restore scrolling image banner
+~~restore scrolling image banner~~
 
-create inventory list
+~~create inventory list~~
 
 create individual inventory list item pages with dynamic url
 
