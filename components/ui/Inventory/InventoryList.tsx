@@ -7,7 +7,7 @@ export default function InventoryList() {
       drivetrain: "AWD",
       id: "0",
       imgSrc:
-        "https://pyxis.nymag.com/v1/imgs/0c5/d3e/25880b94334781d369586c685f45d0558a-15-trump-pepe.rsquare.w400.jpg",
+        "https://scontent.cdninstagram.com/v/t39.30808-6/380293615_18304976152136395_5660976765333031455_n.jpg?stp=dst-jpg_e35_s640x640_sh0.08&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=CAaPoBIUpRgAX95CSBK&edm=APs17CUAAAAA&ccb=7-5&oh=00_AfDfHVUM0Ma6zBmpmL4EHrF9rNpc9aO43L6h38V6IGgzMw&oe=654E6970&_nc_sid=10d13b",
       make: "Subaru",
       mileage: "110,248",
       model: "Outback",
@@ -21,7 +21,7 @@ export default function InventoryList() {
       drivetrain: "FWD",
       id: "1",
       imgSrc:
-        "https://pyxis.nymag.com/v1/imgs/0c5/d3e/25880b94334781d369586c685f45d0558a-15-trump-pepe.rsquare.w400.jpg",
+        "https://www.iihs.org/cdn-cgi/image/width=636/api/ratings/model-year-images/2142/",
       make: "Honda",
       mileage: "95,831",
       model: "Fit",
