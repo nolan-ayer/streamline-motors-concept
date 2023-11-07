@@ -44,8 +44,38 @@ export default function InventoryList() {
       price: "$21,999",
       transmission_type: "Automatic",
       // the following vin is a dummy
-      vin: "JF2GPACC2D2897484",
+      vin: "WAUDF78E96A167966",
       year: "2004",
+    },
+    {
+      carfax: "",
+      drivetrain: "RWD",
+      imgSrc:
+        "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/bg0rkuqoih3q4hgvh2hp.jpg",
+      make: "Porsche",
+      mileage: "74,253",
+      model: "924",
+      price: "$13,599",
+      transmission_type: "Manual",
+      transmission_speed: "5-speed",
+      // the following vin is a dummy
+      vin: "5YFBURHE4EP042184",
+      year: "1988",
+    },
+    {
+      carfax: "",
+      drivetrain: "RWD",
+      imgSrc:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/2010_Hyundai_Genesis_Coupe_3_--_08-28-2009.jpg/1200px-2010_Hyundai_Genesis_Coupe_3_--_08-28-2009.jpg",
+      make: "Hyundai",
+      mileage: "56,244",
+      model: "Coupe",
+      price: "$27,699",
+      transmission_type: "Manual",
+      transmission_speed: "6-speed",
+      // the following vin is a dummy
+      vin: "KNDPC3A23D7454098",
+      year: "2008",
     },
   ];
 
