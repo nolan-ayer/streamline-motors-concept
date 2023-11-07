@@ -1,6 +1,10 @@
 import Layout from "@/components/layout/Layout";
-import Link from "next/link";
+import InventoryExpanded from "@/components/ui/Inventory/InventoryExpanded/InventoryExpanded";
 
 export default function Listing() {
-  return <Layout showHeader={false}></Layout>;
+  return (
+    <Layout showHeader={false}>
+      <InventoryExpanded />
+    </Layout>
+  );
 }
