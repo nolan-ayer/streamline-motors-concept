@@ -7,7 +7,7 @@ export default function Layout(props: any) {
   return (
     <>
       <Header />
-      <HeaderPromo />
+      {props.showHeader && <HeaderPromo />}
       <main>{props.children}</main>
       <MapEmbed />
       <Footer />

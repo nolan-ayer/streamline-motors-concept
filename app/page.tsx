@@ -3,7 +3,7 @@ import FindCar from "@/components/ui/FindCar/FindCar";
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout showHeader={true}>
       <FindCar />
     </Layout>
   );

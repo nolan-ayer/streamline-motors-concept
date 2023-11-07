@@ -3,10 +3,8 @@ import InventoryList from "@/components/ui/Inventory/InventoryList";
 
 export default function Inventory() {
   return (
-    <Layout>
-      <div>
-        <InventoryList />
-      </div>
+    <Layout showHeader={true}>
+      <InventoryList />
     </Layout>
   );
 }
