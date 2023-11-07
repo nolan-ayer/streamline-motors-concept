@@ -53,9 +53,15 @@
   }
 }
 
-@media (orientation: landscape) and (width < 1920px) {
+@media (orientation: landscape) and (width < 1000px) {
   .carfax > a > img {
     width: 16vw;
+  }
+}
+
+@media (orientation: landscape) and (width >= 1000px) {
+  .carfax > a > img {
+    width: 12vw;
   }
 }
 

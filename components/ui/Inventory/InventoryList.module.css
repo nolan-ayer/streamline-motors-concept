@@ -16,9 +16,16 @@
   }
 }
 
-@media (orientation: landscape) and (width < 1920px) {
+@media (orientation: landscape) and (width < 1000px) {
   .inventoryList {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media (orientation: landscape) and (width >= 1000px) {
+  .inventoryList {
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
   }
 }
