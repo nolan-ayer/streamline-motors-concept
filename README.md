@@ -2,7 +2,7 @@ This is a concept design for the StreamlineMotors LLC website (original can be f
 
 ~
 
-Consumer purchase habits may derive some pattern based on the perceived credibility of the bodies from which those purchases are made. If an individual, company, or other entity has what may be perceived as poor image by their target consumer, purchases would have a higher likelyhood of failure.
+Successful consumer engagement scales with the perceived credibility of the bodies with which their purchases are made. If an individual, company, or other entity has what may be perceived as poor image by the consumer, purchases would have a higher likelyhood of failure.
 
 According to the Stanford Web Credibility Project conducted by the Stanford University Persuasive Technology Lab, the average consumer paid far more attention to the superficial aspects of a site, such as visual cues, than to its content. For example, nearly half of all consumers (46.1%) in the study assessed the credibility of sites based in part on the appeal of the overall visual design of a site, including layout, typography, font size and color schemes.
 
