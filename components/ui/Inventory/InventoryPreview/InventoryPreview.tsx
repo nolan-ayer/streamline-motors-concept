@@ -7,7 +7,6 @@ export default function InventoryPreview(config: any) {
   const {
     carfax,
     drivetrain,
-    id,
     imgSrc,
     make,
     mileage,
@@ -15,25 +14,27 @@ export default function InventoryPreview(config: any) {
     price,
     transmission_type,
     transmission_speed,
+    vin,
     year,
   } = config.config;
 
   return (
     <li className={styles.previewCard}>
-      <div>
+      <div className={styles.carfax}>
+        {/* href will look like `https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=${partnerId}&vin=${vin}` */}
+        <Link href="https://www.carfax.com/" target="_blank">
+          <Image
+            alt="Show me the Carfax"
+            layout="fit"
+            objectFit="contain"
+            src={CarfaxBanner}
+          />
+        </Link>
+      </div>
+      {/* the following link will take path /inventory/${vin} */}
+      <Link href={`https://www.google.com/search?q=${year}+${make}+${model}`}>
         <div className={styles.imageContainer}>
           <img src={imgSrc} />
-          <div className={styles.carfax}>
-            {/* href will look like `https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=${partnerId}&vin=${vin}` */}
-            <Link href="https://www.carfax.com/" target="_blank">
-              <Image
-                alt="Show me the Carfax"
-                src={CarfaxBanner}
-                layout="fit"
-                objectFit="contain"
-              />
-            </Link>
-          </div>
         </div>
         <div className={styles.textContainer}>
           <h3>
@@ -58,7 +59,7 @@ export default function InventoryPreview(config: any) {
             <span>{price}</span>
           </div>
         </div>
-      </div>
+      </Link>
     </li>
   );
 }
