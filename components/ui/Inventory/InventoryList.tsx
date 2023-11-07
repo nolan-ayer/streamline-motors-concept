@@ -33,6 +33,20 @@ export default function InventoryList() {
       vin: "JF2GPACC2D2897484",
       year: "2011",
     },
+    {
+      carfax: "",
+      drivetrain: "4WD",
+      imgSrc:
+        "https://bringatrailer.com/wp-content/uploads/2022/04/414778BF-C626-4C5F-BCAE-1C32FAC1F179-64668-scaled.jpeg?fit=940%2C626",
+      make: "Toyota",
+      mileage: "86,704",
+      model: "Land Cruiser",
+      price: "$21,999",
+      transmission_type: "Automatic",
+      // the following vin is a dummy
+      vin: "JF2GPACC2D2897484",
+      year: "2004",
+    },
   ];
 
   const renderItems = pseudoDatabase.map((item) => {
