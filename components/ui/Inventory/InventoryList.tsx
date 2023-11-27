@@ -16,7 +16,10 @@ export default function InventoryList() {
     const fetchedData = database.map((data) => {
       return data;
     });
-    setCardContents(fetchedData);
+    const parsedData = fetchedData.map((data) => {
+      return data;
+    });
+    setCardContents(parsedData);
   };
 
   const renderItems = cardContents.map((item) => {
