@@ -1,8 +1,6 @@
 [
-  { "manufacturer": "Any" },
   {
-    "manufacturer": "Audi",
-    "models": [
+    "Audi": [
       { "name": "A3", "body": "sedan", "category": "standard" },
       { "name": "A4", "body": "sedan", "category": "standard" },
       { "name": "A5", "body": "sedan", "category": "standard" },
@@ -34,8 +32,7 @@
     ]
   },
   {
-    "manufacturer": "BMW",
-    "models": [
+    "BMW": [
       { "name": "2 Series", "body": "coupe sedan", "category": "standard" },
       { "name": "3 Series", "body": "coupe sedan", "category": "standard" },
       { "name": "4 Series", "body": "coupe sedan", "category": "standard" },
@@ -67,8 +64,7 @@
     ]
   },
   {
-    "manufacturer": "Bugatti",
-    "models": [
+    "Bugatti": [
       { "name": "Veyron", "body": "coupe", "category": "super" },
       { "name": "Chiron", "body": "coupe", "category": "super" },
       { "name": "Divo", "body": "coupe", "category": "super" },
@@ -76,8 +72,7 @@
     ]
   },
   {
-    "manufacturer": "Chevrolet",
-    "models": [
+    "Chevrolet": [
       { "name": "Spark", "body": "hatchback", "category": "standard" },
       { "name": "Sonic", "body": "", "category": "" },
       { "name": "Malibu", "body": "", "category": "" },
@@ -100,16 +95,14 @@
     ]
   },
   {
-    "manufacturer": "Chrysler",
-    "models": [
+    "Chrysler": [
       { "name": "300", "body": "sedan", "category": "" },
       { "name": "Pacifica", "body": "minivan", "category": "" },
       { "name": "Voyager", "body": "minivan", "category": "" }
     ]
   },
   {
-    "manufacturer": "Dodge",
-    "models": [
+    "Dodge": [
       { "name": "Charger", "body": "sedan", "category": "sport" },
       { "name": "Challenger", "body": "coupe", "category": "sport" },
       { "name": "Durango", "body": "suv", "category": "" },
@@ -118,8 +111,7 @@
     ]
   },
   {
-    "manufacturer": "Ferrari",
-    "models": [
+    "Ferrari": [
       { "name": "488 GTB", "body": "", "category": "" },
       { "name": "488 Spider", "body": "", "category": "" },
       { "name": "812 Superfast", "body": "", "category": "" },
@@ -137,16 +129,14 @@
     ]
   },
   {
-    "manufacturer": "Fiat",
-    "models": [
+    "Fiat": [
       { "name": "500", "body": "", "category": "" },
       { "name": "500X", "body": "", "category": "" },
       { "name": "500L", "body": "", "category": "" }
     ]
   },
   {
-    "manufacturer": "Ford",
-    "models": [
+    "Ford": [
       { "name": "F-150", "body": "", "category": "" },
       { "name": "Escape", "body": "", "category": "" },
       { "name": "Explorer", "body": "", "category": "" },
@@ -162,8 +152,7 @@
     ]
   },
   {
-    "manufacturer": "Honda",
-    "models": [
+    "Honda": [
       { "name": "Civic", "body": "", "category": "" },
       { "name": "Accord", "body": "", "category": "" },
       { "name": "CR-V", "body": "", "category": "" },
@@ -177,8 +166,7 @@
     ]
   },
   {
-    "manufacturer": "Hyundai",
-    "models": [
+    "Hyundai": [
       { "name": "Accent", "body": "", "category": "" },
       { "name": "Elantra", "body": "", "category": "" },
       { "name": "Sonata", "body": "", "category": "" },
@@ -192,8 +180,7 @@
     ]
   },
   {
-    "manufacturer": "Jaguar",
-    "models": [
+    "Jaguar": [
       { "name": "XE", "body": "", "category": "" },
       { "name": "XF", "body": "", "category": "" },
       { "name": "XJ", "body": "", "category": "" },
@@ -204,8 +191,7 @@
     ]
   },
   {
-    "manufacturer": "Jeep",
-    "models": [
+    "Jeep": [
       { "name": "Cherokee", "body": "", "category": "" },
       { "name": "Compass", "body": "", "category": "" },
       { "name": "Grand Cherokee", "body": "", "category": "" },
@@ -215,8 +201,7 @@
     ]
   },
   {
-    "manufacturer": "Kia",
-    "models": [
+    "Kia": [
       { "name": "Forte", "body": "", "category": "" },
       { "name": "Optima", "body": "", "category": "" },
       { "name": "Cadenza", "body": "", "category": "" },
@@ -231,8 +216,7 @@
     ]
   },
   {
-    "manufacturer": "Lamborghini",
-    "models": [
+    "Lamborghini": [
       { "name": "Aventador", "body": "", "category": "" },
       { "name": "Centenario", "body": "", "category": "" },
       { "name": "Countach", "body": "", "category": "" },
@@ -246,8 +230,7 @@
     ]
   },
   {
-    "manufacturer": "Land Rover",
-    "models": [
+    "Land Rover": [
       { "name": "Defender", "body": "", "category": "" },
       { "name": "Discovery", "body": "", "category": "" },
       { "name": "Discovery Sport", "body": "", "category": "" },
@@ -258,8 +241,7 @@
     ]
   },
   {
-    "manufacturer": "Lexus",
-    "models": [
+    "Lexus": [
       { "name": "CT", "body": "", "category": "" },
       { "name": "ES", "body": "", "category": "" },
       { "name": "GS", "body": "", "category": "" },
@@ -275,8 +257,7 @@
     ]
   },
   {
-    "manufacturer": "Maserati",
-    "models": [
+    "Maserati": [
       { "name": "Ghibli", "body": "", "category": "" },
       { "name": "Quattroporte", "body": "", "category": "" },
       { "name": "Levante", "body": "", "category": "" },
@@ -285,8 +266,7 @@
     ]
   },
   {
-    "manufacturer": "Mazda",
-    "models": [
+    "Mazda": [
       { "name": "CX-3", "body": "", "category": "" },
       { "name": "CX-30", "body": "", "category": "" },
       { "name": "CX-5", "body": "", "category": "" },
@@ -297,8 +277,7 @@
     ]
   },
   {
-    "manufacturer": "McLaren",
-    "models": [
+    "McLaren": [
       { "name": "McLaren GT", "body": "", "category": "" },
       { "name": "McLaren 570S", "body": "", "category": "" },
       { "name": "McLaren 600LT", "body": "", "category": "" },
@@ -308,8 +287,7 @@
     ]
   },
   {
-    "manufacturer": "Mercedes-Benz",
-    "models": [
+    "Mercedes-Benz": [
       { "name": "A-body", "body": "", "category": "" },
       { "name": "C-body", "body": "", "category": "" },
       { "name": "E-body", "body": "", "category": "" },
@@ -328,8 +306,7 @@
     ]
   },
   {
-    "manufacturer": "Mitsubishi",
-    "models": [
+    "Mitsubishi": [
       { "name": "Mirage", "body": "", "category": "" },
       { "name": "Mirage G4", "body": "", "category": "" },
       { "name": "Outlander Sport", "body": "", "category": "" },
@@ -338,8 +315,7 @@
     ]
   },
   {
-    "manufacturer": "Nissan",
-    "models": [
+    "Nissan": [
       { "name": "Altima", "body": "", "category": "" },
       { "name": "Maxima", "body": "", "category": "" },
       { "name": "Sentra", "body": "", "category": "" },
@@ -360,15 +336,13 @@
     ]
   },
   {
-    "manufacturer": "Polestar",
-    "models": [
+    "Polestar": [
       { "name": "1", "body": "", "category": "" },
       { "name": "2", "body": "", "category": "" }
     ]
   },
   {
-    "manufacturer": "Porsche",
-    "models": [
+    "Porsche": [
       { "name": "911", "body": "", "category": "" },
       { "name": "718 Cayman", "body": "", "category": "" },
       { "name": "718 Boxster", "body": "", "category": "" },
@@ -379,8 +353,7 @@
     ]
   },
   {
-    "manufacturer": "Ram",
-    "models": [
+    "Ram": [
       { "name": "1500", "body": "", "category": "" },
       { "name": "2500", "body": "", "category": "" },
       { "name": "3500", "body": "", "category": "" },
@@ -390,8 +363,7 @@
     ]
   },
   {
-    "manufacturer": "Subaru",
-    "models": [
+    "Subaru": [
       { "name": "Ascent", "body": "", "category": "" },
       { "name": "BRZ", "body": "", "category": "" },
       { "name": "Crosstrek", "body": "", "category": "" },
@@ -403,8 +375,7 @@
     ]
   },
   {
-    "manufacturer": "Tesla",
-    "models": [
+    "Tesla": [
       { "name": "Model S", "body": "", "category": "" },
       { "name": "Model 3", "body": "", "category": "" },
       { "name": "Model X", "body": "", "category": "" },
@@ -414,8 +385,7 @@
     ]
   },
   {
-    "manufacturer": "Toyota",
-    "models": [
+    "Toyota": [
       { "name": "4Runner", "body": "", "category": "" },
       { "name": "86", "body": "", "category": "" },
       { "name": "Avalon", "body": "", "category": "" },
@@ -435,8 +405,7 @@
     ]
   },
   {
-    "manufacturer": "Volkswagen",
-    "models": [
+    "Volkswagen": [
       { "name": "Arteon", "body": "", "category": "" },
       { "name": "Atlas", "body": "", "category": "" },
       { "name": "Beetle", "body": "", "category": "" },
@@ -447,8 +416,7 @@
     ]
   },
   {
-    "manufacturer": "Volvo",
-    "models": [
+    "Volvo": [
       { "name": "S60", "body": "", "category": "" },
       { "name": "S90", "body": "", "category": "" },
       { "name": "V60", "body": "", "category": "" },
