@@ -61,20 +61,5 @@
     "transmission_speed": "6-speed",
     "vin": "KNDPC3A23D7454098",
     "year": "2008"
-  },
-  {
-    "KNDPC3A23D7454098": {
-      "carfax": "",
-      "drivetrain": "RWD",
-      "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/2010_Hyundai_Genesis_Coupe_3_--_08-28-2009.jpg/1200px-2010_Hyundai_Genesis_Coupe_3_--_08-28-2009.jpg",
-      "make": "Hyundai",
-      "mileage": "56,244",
-      "model": "Coupe",
-      "price": "$27,699",
-      "transmission_type": "Manual",
-      "transmission_speed": "6-speed",
-      "vin": "KNDPC3A23D7454098",
-      "year": "2008"
-    }
   }
 ]

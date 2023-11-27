@@ -40,7 +40,7 @@ export default function InventoryPreview(config: any) {
           />
         </Link>
       </div>
-      {/* the following link will take path /inventory/${vin} */}
+      {/* the following href will be replaced with /inventory/${vin} */}
       <Link href={`https://www.google.com/search?q=${year}+${make}+${model}`}>
         <div className={styles.imageContainer}>
           <img src={source} onError={imageErrorHandler} />
