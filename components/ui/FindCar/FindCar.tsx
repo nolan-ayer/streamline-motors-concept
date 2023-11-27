@@ -2,14 +2,51 @@
 
 import { useRouter } from "next/navigation";
 import styles from "./FindCar.module.css";
+import database from "../../../pseudoDatabase/inventory.json";
+import { useEffect, useState } from "react";
+import Select from "../Input/Select";
 
 export default function FindCar() {
   const router = useRouter();
+
+  const [carMake, setCarMake] = useState<any | null>([]);
+  const [carModel, setCarModel] = useState<any | null>([]);
 
   const submitHandler = (event: any) => {
     event.preventDefault();
     console.log("Form submits values to backend that filters results");
   };
+
+  const initializeMake = () => {
+    const fetchedData = database.map((data) => {
+      return data;
+    });
+    const parsedData = fetchedData.map((data) => {
+      return data;
+    });
+    const vehicleMake = parsedData.map((data) => {
+      return data.make;
+    });
+    setCarMake(vehicleMake.sort());
+  };
+
+  const initializeModel = () => {
+    const fetchedData = database.map((data) => {
+      return data;
+    });
+    const parsedData = fetchedData.map((data) => {
+      return data;
+    });
+    const vehicleModel = parsedData.map((data) => {
+      return data.model;
+    });
+    setCarModel(vehicleModel.sort());
+  };
+
+  useEffect(() => {
+    initializeMake();
+    initializeModel();
+  }, []);
 
   return (
     <div className={styles.findCar}>
@@ -25,9 +62,12 @@ export default function FindCar() {
         </div>
         <div className={styles.findCarColumn}>
           <div className={styles.findCarLabel}>Make</div>
-          <select>
-            <option value="Placeholder">Any</option>
-          </select>
+          <Select
+            config={{
+              innerText: carMake,
+              inputValue: "make",
+            }}
+          />
         </div>
         <div className={styles.findCarColumn}>
           <div className={styles.findCarLabel}>Model</div>
