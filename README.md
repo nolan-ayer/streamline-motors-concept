@@ -48,6 +48,8 @@ add about, contact, and financing pages
 
 enable CRUD functionality with dealer login
 
+SEO
+
 AWS iAM
 
 deployment
