@@ -26,7 +26,9 @@ DEVELOPER TODOS:
 
 ~~progress development of json database~~ placeholder database will be replaced with dynamic data from carfaxAPI
 
-enforce border radius for all UI elements
+~~enforce border radius for all UI elements~~
+
+fix dynamically rendered options for form (causes bug with rendering of inventory list)
 
 hamburger menu for mobile nav
 
