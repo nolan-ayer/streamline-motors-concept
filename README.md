@@ -26,6 +26,10 @@ DEVELOPER TODOS:
 
 ~~progress development of json database~~ placeholder database will be replaced with dynamic data from carfaxAPI
 
+enforce border radius for all UI elements
+
+hamburger menu for mobile nav
+
 include react-hook-form
 
 ~~restore scrolling image banner~~
