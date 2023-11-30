@@ -27,6 +27,7 @@ export default function FindCar() {
     const vehicleMake = parsedData.map((data) => {
       return data.make;
     });
+    setCarMake(vehicleMake.push("Any"));
     setCarMake(vehicleMake.sort());
   };
 
