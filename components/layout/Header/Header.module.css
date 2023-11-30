@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100vw;
 }
 
 .logoImage {
@@ -58,13 +57,28 @@
   text-align: center;
 }
 
-@media (orientation: landscape) and (width < 1920px) {
+@media (orientation: landscape) and (width >= 480px) {
+  .carouselImg {
+    height: calc(100vw / 3);
+  }
   .headerLayer {
     padding: 0 4rem;
   }
 }
 
+@media (orientation: landscape) and (width >= 1280px) {
+  .carouselImg {
+    height: calc(100vw / 4);
+  }
+  .headerLayer {
+    padding: 0 6rem;
+  }
+}
+
 @media (orientation: landscape) and (width >= 1920px) {
+  .carouselImg {
+    height: calc(100vw / 5);
+  }
   .headerLayer {
     padding: 0 6rem;
   }
@@ -72,12 +86,9 @@
 
 @media (orientation: portrait) {
   .carouselImg {
-    height: 16vh;
+    height: calc(100vw / 3);
   }
 }
 
 @media (orientation: landscape) {
-  .carouselImg {
-    height: 16vw;
-  }
 }

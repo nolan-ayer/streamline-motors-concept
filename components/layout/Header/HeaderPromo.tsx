@@ -19,21 +19,22 @@ import PromoItem from "./PromoItem";
 import { useEffect, useState } from "react";
 
 export default function HeaderPromo() {
-  const [count, setCount] = useState(3);
+  // const [count, setCount] = useState(3);
 
-  //effect doesn't update state on first render, only on resize
-  useEffect(() => {
-    window.addEventListener("resize", () => {
-      const width = window.innerWidth;
-      const height = window.innerHeight;
+  // effect doesn't update state on first render, only on resize
+  // useEffect(() => {
+  //   resizeDetect();
+  // }, []);
 
-      if (width > height) {
-        setCount(5);
-      } else {
-        setCount(3);
-      }
-    });
-  }, []);
+  // const resizeDetect = () => {
+  //   window.addEventListener("resize", () => {
+  //     if (screen.availWidth > screen.availHeight) {
+  //       setCount(5);
+  //     } else {
+  //       setCount(3);
+  //     }
+  //   });
+  // };
 
   const images = [
     {
@@ -128,15 +129,30 @@ export default function HeaderPromo() {
       <Swiper
         loop={true}
         autoplay={{ delay: 900 }}
+        breakpoints={{
+          0: {
+            slidesPerView: 3,
+          },
+          // 480: {
+          //   slidesPerView: 3,
+          // },
+          1280: {
+            slidesPerView: 4,
+          },
+          1920: {
+            slidesPerView: 5,
+          },
+        }}
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={0}
-        slidesPerView={count}
+        // slidesPerView={count}
         // navigation
         pagination={{ clickable: true }}
         // scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         // onSlideChange={() => console.log("slide change")}
         speed={1800}
+        updateOnWindowResize={true}
       >
         {renderImages}
       </Swiper>
