@@ -29,6 +29,8 @@ DEVELOPER TODOS:
 ~~enforce border radius for all UI elements~~
 
 fix dynamically rendered options for form (causes bug with rendering of inventory list)
+~~make~~
+model
 
 hamburger menu for mobile nav
 
