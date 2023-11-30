@@ -36,6 +36,8 @@ hamburger menu for mobile nav
 
 include react-hook-form
 
+create refine component for inventory page
+
 ~~restore scrolling image banner~~
 
 ~~create inventory list~~
