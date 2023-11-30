@@ -1,5 +1,6 @@
 .carfax {
-  border-radius: 1rem;
+  /* border-radius: 0 1rem 0 0; */
+  border-radius: 0 1rem;
   font-size: 0;
   right: 0;
   padding: 0;
@@ -13,8 +14,13 @@
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
 }
 
-.carfax > a > img {
-  height: auto;
+.carfaxImage {
+  object-fit: contain;
+}
+
+.carfaxLink {
+  height: 100%;
+  line-height: 0;
 }
 
 .imageContainer {
@@ -46,28 +52,34 @@
 }
 
 @media (orientation: landscape) {
+  /* .carfax {
+    filter: brightness(90%);
+  }
+  .carfax:hover {
+    filter: brightness(100%);
+  } */
 }
 
 @media (orientation: portrait) {
-  .carfax > a > img {
+  /* .carfax > a > img {
     width: 32vw;
-  }
+  } */
 }
 
 @media (orientation: landscape) and (width < 1000px) {
-  .carfax > a > img {
+  /* .carfax > a > img {
     width: 16vw;
-  }
+  } */
 }
 
 @media (orientation: landscape) and (width >= 1000px) {
-  .carfax > a > img {
+  /* .carfax > a > img {
     width: 12vw;
-  }
+  } */
 }
 
 @media (orientation: landscape) and (width >= 1920px) {
-  .carfax > a > img {
+  /* .carfax > a > img {
     width: 8vw;
-  }
+  } */
 }

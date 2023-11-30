@@ -31,11 +31,14 @@ export default function InventoryPreview(config: any) {
     <li className={styles.previewCard}>
       <div className={styles.carfax}>
         {/* href will look like `https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=${partnerId}&vin=${vin}` */}
-        <Link href="https://www.carfax.com/" target="_blank">
+        <Link
+          href="https://www.carfax.com/"
+          className={styles.carfaxLink}
+          target="_blank"
+        >
           <Image
             alt="Show me the Carfax"
-            layout="fit"
-            objectFit="contain"
+            className={styles.carfaxImage}
             src={CarfaxBanner}
           />
         </Link>
