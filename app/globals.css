@@ -22,6 +22,7 @@ html {
 button[type="submit"] {
   background-color: rgb(2, 117, 216);
   border: none;
+  border-radius: 1rem;
   color: white;
   outline: none;
 }
@@ -31,7 +32,11 @@ button[type="submit"]:hover {
   cursor: pointer;
 }
 
-input[type="number"] {
+input,
+input[type="number"],
+select {
+  border: 1px solid rgb(64, 64, 64);
+  border-radius: 1rem;
   padding: 0 0 0 0.25rem;
 }
 
